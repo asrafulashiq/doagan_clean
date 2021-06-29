@@ -1,6 +1,6 @@
 # DOA-GAN
 
-[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Islam_DOA-GAN_Dual-Order_Attentive_Generative_Adversarial_Network_for_Image_Copy-Move_Forgery_CVPR_2020_paper.pdf)
+[![Paper](https://img.shields.io/badge/paper-paper)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Islam_DOA-GAN_Dual-Order_Attentive_Generative_Adversarial_Network_for_Image_Copy-Move_Forgery_CVPR_2020_paper.pdf)
 
 ## Requirements
 - PyTorch-1.4+
