@@ -1,0 +1,8 @@
+ckpt
+images
+*.png
+*.jpg
+*.ckpt
+*.pkl
+__pycache__/
+*.pyc
