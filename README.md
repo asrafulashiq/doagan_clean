@@ -1,6 +1,21 @@
-# Copy-Move
+# DOA-GAN
 
-## Test USC-ISI
+## Requirements
+- PyTorch-1.4+
+
+Install the required packages by:
+
+```
+pip install -r requirements.txt
+```
+
+
+## Pretrained models
+---
+
+Pretrained models can be downloaded from [drive link](https://drive.google.com/drive/folders/1tFol0YerCZdxEiutK_J95jkG3JvAYtoj?usp=sharing)
+
+## Test on USC-ISI
 ---
 
 ```python
@@ -9,18 +24,18 @@ python -m pdb main.py --dataset usc --ckpt ./ckpt/three_channel.pkl [--plot]
 
 `--plot` flag will save the output images in `fig/` directory.
 
-## Test CASIA/COMO
+## Test on CASIA/COMO
 ---
 
 ```python
-python -m pdb main.py --dataset [casia/como] --ckpt ./ckpt/three_channel.pkl [--plot]
+python -m pdb main.py --dataset [casia/como] --ckpt ./ckpt/single_channel.pkl [--plot]
 ```
 
 
 ## Test on Custom folder
 ---
 
-put forged images in `images/` folder, and run
+Put forged images in `images/` folder, and run
 
 ```
 python -m pdb run_on_folder.py --ckpt [model_weight_file] --out-channel [1 or 3]
