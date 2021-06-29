@@ -1,5 +1,7 @@
 # DOA-GAN
 
+[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Islam_DOA-GAN_Dual-Order_Attentive_Generative_Adversarial_Network_for_Image_Copy-Move_Forgery_CVPR_2020_paper.pdf)
+
 ## Requirements
 - PyTorch-1.4+
 
@@ -11,12 +13,10 @@ pip install -r requirements.txt
 
 
 ## Pretrained models
----
 
 Pretrained models can be downloaded from [drive link](https://drive.google.com/drive/folders/1tFol0YerCZdxEiutK_J95jkG3JvAYtoj?usp=sharing)
 
 ## Test on USC-ISI
----
 
 ```python
 python -m pdb main.py --dataset usc --ckpt ./ckpt/three_channel.pkl [--plot]
@@ -25,7 +25,6 @@ python -m pdb main.py --dataset usc --ckpt ./ckpt/three_channel.pkl [--plot]
 `--plot` flag will save the output images in `fig/` directory.
 
 ## Test on CASIA/COMO
----
 
 ```python
 python -m pdb main.py --dataset [casia/como] --ckpt ./ckpt/single_channel.pkl [--plot]
@@ -33,7 +32,6 @@ python -m pdb main.py --dataset [casia/como] --ckpt ./ckpt/single_channel.pkl [-
 
 
 ## Test on Custom folder
----
 
 Put forged images in `images/` folder, and run
 
