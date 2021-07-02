@@ -45,3 +45,14 @@ python -m pdb run_on_folder.py --ckpt ./ckpt/three_channel.pkl --out-channel 3
 ```
 
 The output masks will be saved in `fig_test_folder` folder.
+
+## Citation
+```
+@InProceedings{Islam_2020_CVPR,
+author = {Islam, Ashraful and Long, Chengjiang and Basharat, Arslan and Hoogs, Anthony},
+title = {DOA-GAN: Dual-Order Attentive Generative Adversarial Network for Image Copy-Move Forgery Detection and Localization},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+```
